@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ActionSendkey {
 
 	public static void main(String[] args) throws InterruptedException {
+		System.out.println("Testing git");
 
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver= new ChromeDriver();
